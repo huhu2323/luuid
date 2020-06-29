@@ -7,6 +7,7 @@ A Laravel package for creating uuid primary keys.
 **How to use?**
 1) Install `composer require haymetg/luuid`
 2) use `luuid()` in migration, 
+
 *Example:*
 
     Schema::create('posts', function (Blueprint  $table) {
@@ -15,6 +16,7 @@ A Laravel package for creating uuid primary keys.
         $table->string('body');
         $table->timestamps();
     });
+
 
 3) use `WithUuid` trait in your Model and declare the primary key
 
