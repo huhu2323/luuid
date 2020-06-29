@@ -1,0 +1,17 @@
+{
+    "name": "haymetg/luuid",
+    "description": "A Laravel package for making UUID primary key",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Masangcay",
+            "email": "jameskyurem@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "HaymeTG\\LUUID\\": "src/",
+        "HaymeTG\\LUUID\\Traits\\": "src/traits/"
+    }
+}
