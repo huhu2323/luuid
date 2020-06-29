@@ -10,8 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "HaymeTG\\LUUID\\": "src/",
-        "HaymeTG\\LUUID\\Traits\\": "src/traits/"
+    "autoload": {
+        "psr-4": {
+            "HaymeTG\\LUUID\\": "src/",
+            "HaymeTG\\LUUID\\Traits\\": "src/traits/"
+        }
     }
 }
