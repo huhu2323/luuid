@@ -4,7 +4,7 @@
 
 A Laravel package for creating uuid primary keys.
 
-**How to use?**
+## How to use?
 1) Install `composer require haymetg/luuid`
 2) use `luuid()` in migration, 
 
