@@ -27,10 +27,10 @@ A Laravel package for creating uuid primary keys.
     use HaymeTG\LUUID\Traits\WithUuid;
     use Illuminate\Database\Eloquent\Model;
     
-    class  Post  extends  Model
+    class Post extends Model
     {
-    		use  WithUuid;
-    		protected  $primaryKey = 'uuid';
+    	use WithUuid;
+    	protected $primaryKey = 'uuid';
     }
 
 Done!
