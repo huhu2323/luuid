@@ -37,5 +37,5 @@ A Laravel package for creating uuid primary keys.
 Done!
 This will automatically generate unique UUID whenever you save a new record.
 
-##Credits: 
+## Credits: 
 Liam-senpai <https://github.com/liamdemafelix>
