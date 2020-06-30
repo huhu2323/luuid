@@ -15,5 +15,12 @@
             "HaymeTG\\LUUID\\": "src/",
             "HaymeTG\\LUUID\\Traits\\": "src/traits/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HaymeTG\\LUUID\\LUUIDServiceProvider"
+            ]
+        }
     }
 }
